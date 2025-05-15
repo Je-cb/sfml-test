@@ -61,7 +61,7 @@ class GButton
         }
 
         void draw(sf::RenderWindow& window)
-        {
+        {   
             window.draw(m_button);
             window.draw(m_text);
         }
